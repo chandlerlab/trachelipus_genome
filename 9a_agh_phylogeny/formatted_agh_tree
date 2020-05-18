@@ -1,0 +1,124 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	'AB029615.1_Armadillidium_vulgare'
+	'AB089810.1_Porcellio_scaber_2'
+	'AB089811.1_Porcellio_dilatatus'
+	'AY169973.1_Porcellio_scaber_1'
+	Expressed_transcript
+	'JQ304798.1_Armadillidium_granulatum'
+	'JQ304799.1_Armadillidium_maculatum'
+	'JQ304800.1_Armadillidium_depressum'
+	'JQ304801.1_Armadillidium_nasatum'
+	'JQ304802.1_Porcellio_dilatatus'
+	'JQ304803.1_Porcellio_dispar'
+	'JQ304804.1_Porcellio_gallicus_L'
+	'JQ304805.1_Porcellio_gallicus_S'
+	'JQ304806.1_Porcellio_laevis'
+	'JQ304807.1_Porcellionides_pruinosus'
+	'JQ304808.1_Armadillo_officinalis'
+	'JQ304809.1_Cylisticus_convexus'
+	'JQ304810.1_Oniscus_asellus'
+	'NODE_38289_length_618_cov_5.647166'
+	'NODE_44048_length_535_cov_2.969828'
+	contig113427
+	contig67161
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('JQ304808.1_Armadillo_officinalis':1.126194,'JQ304801.1_Armadillidium_nasatum':1.0E-6)[&bootstrap=22]:0.060018,('JQ304798.1_Armadillidium_granulatum':0.015243,'AB029615.1_Armadillidium_vulgare':0.037987)[&bootstrap=74]:0.015325)[&bootstrap=22]:0.007637,('JQ304799.1_Armadillidium_maculatum':0.02249,(((((contig113427:0.081465,Expressed_transcript:0.065943)[&bootstrap=36]:1.0E-6,contig67161:0.123165)[&bootstrap=61]:0.063342,('NODE_44048_length_535_cov_2.969828':0.199956,'NODE_38289_length_618_cov_5.647166':0.091688)[&bootstrap=99]:0.245833)[&bootstrap=77]:0.141009,(('JQ304803.1_Porcellio_dispar':0.136989,(('JQ304804.1_Porcellio_gallicus_L':0.039378,'JQ304805.1_Porcellio_gallicus_S':0.054177)[&bootstrap=96]:0.081349,((('JQ304802.1_Porcellio_dilatatus':0.021718,'AB089811.1_Porcellio_dilatatus':1.0E-6)[&bootstrap=93]:0.030092,'JQ304806.1_Porcellio_laevis':0.069655)[&bootstrap=76]:0.029301,('AB089810.1_Porcellio_scaber_2':1.0E-6,'AY169973.1_Porcellio_scaber_1':0.007236)[&bootstrap=100]:0.083364)[&bootstrap=93]:0.078442)[&bootstrap=41]:0.044996)[&bootstrap=24]:0.009457,'JQ304807.1_Porcellionides_pruinosus':0.240388)[&bootstrap=59]:0.058013)[&bootstrap=45]:0.047511,('JQ304810.1_Oniscus_asellus':0.373651,'JQ304809.1_Cylisticus_convexus':0.202184)[&bootstrap=39]:0.035388)[&bootstrap=55]:0.279088)[&bootstrap=23]:1.0E-6,'JQ304800.1_Armadillidium_depressum':0.022031)[&bootstrap=22];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

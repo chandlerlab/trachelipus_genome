@@ -1,0 +1,8 @@
+contig113427	maker	gene	13033	14529	.	-	.	ID=maker-contig113427-augustus-gene-0.4;Name=maker-contig113427-augustus-gene-0.4
+contig113427	maker	exon	14498	14529	.	-	.	ID=maker-contig113427-augustus-gene-0.4-mRNA-1:exon:1251;Parent=maker-contig113427-augustus-gene-0.4-mRNA-1
+contig113427	maker	exon	13033	13279	.	-	.	ID=maker-contig113427-augustus-gene-0.4-mRNA-1:exon:1250;Parent=maker-contig113427-augustus-gene-0.4-mRNA-1
+contig67161	maker	gene	25114	28232	.	-	.	ID=maker-contig67161-snap-gene-0.0;Name=maker-contig67161-snap-gene-0.0
+contig67161	maker	exon	28226	28232	.	-	.	ID=maker-contig67161-snap-gene-0.0-mRNA-1:exon:845;Parent=maker-contig67161-snap-gene-0.0-mRNA-1
+contig67161	maker	exon	26454	26510	.	-	.	ID=maker-contig67161-snap-gene-0.0-mRNA-1:exon:844;Parent=maker-contig67161-snap-gene-0.0-mRNA-1
+contig67161	maker	exon	25414	25630	.	-	.	ID=maker-contig67161-snap-gene-0.0-mRNA-1:exon:843;Parent=maker-contig67161-snap-gene-0.0-mRNA-1
+contig67161	maker	exon	25114	25120	.	-	.	ID=maker-contig67161-snap-gene-0.0-mRNA-1:exon:842;Parent=maker-contig67161-snap-gene-0.0-mRNA-1
