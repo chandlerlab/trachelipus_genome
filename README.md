@@ -15,6 +15,8 @@ A Russell, S Borrelli, R Fontana, J Laricchiuta, J Pascar, T Becking, I Giraud, 
 
 6_assembly_filtering: scripts to construct blobplots and filter likely contaminants from the corrected assembly
 
+6b_genome_eval_with_transcripts: scripts to BLAST assembled transcripts against the assembled genome to see how many transcripts have nearly full-length matches in genome, as a second complementary assessment of genome assembly completeness
+
 7_repeatmasking: scripts to construct a custom repeat library from the filtered assembly using RepeatModeler, and then mask repetitive elements from the assembly
 
 8_genome_annotation: scripts to annotate the assembly using the Maker pipeline
