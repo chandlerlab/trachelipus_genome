@@ -1,0 +1,165 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=63;
+	taxlabels
+	'Aedes_albopictus_GCF_004795415.1'
+	'Bemisia_tabaci_GCF_900097055.1'
+	'Berlin_GCF_001931755.2'
+	'Brugia_malayi_GCF_000008385.1'
+	'Brugia_malayi_GCF_004795935.1'
+	'Cameroon_GCF_000530755.1'
+	'Carposina_sasakii_GCF_006542295.1'
+	'China_1_GCF_003999585.1'
+	'Culex_pipiens_molestus_GCF_000208785.1'
+	'Culex_quinquefasciatus_GCF_000156735.1'
+	'D_ananassae_GCF_000167475.1'
+	'Diaphorina_citri_GCF_000331595.1'
+	'Drosophila_mauritiana_GCF_004685025.1'
+	'GBW_GCF_006334525.1'
+	'Glossina_morsitans_morsitans_GCF_000689175.1'
+	'Muscidifurax_uniraptor_GCF_000174095.1'
+	'Nasonia_vitripennis_GCF_000204545.1'
+	'Ob_Wba_GCF_001266585.1'
+	Trachelipus_insertion
+	'Wcon_GCF_003344345.1'
+	'valsugana_GCF_000333795.1'
+	'wAlbB_GCF_000242415.2'
+	'wAlbB_GCF_004171285.1'
+	'wAna_Hawaii_GCF_003671405.1'
+	'wAna_India_GCF_003671365.1'
+	'wAna_Indonesia_GCF_003671375.1'
+	'wAu_GCF_000953315.1'
+	'wAus_GCF_002318985.1'
+	'wBol1-b_GCF_000333775.1'
+	'wCle_GCF_000829315.1'
+	'wDacA_GCF_001648025.1'
+	'wDacB_GCF_001648015.1'
+	'wHa_GCF_000376605.1'
+	'wInc_Cu_GCF_001758565.1'
+	'wMau_GCF_004795955.1'
+	'wMau_GCF_004795975.1'
+	'wMelPop_GCF_000475015.1'
+	'wMel_AMD_GCF_002907445.1'
+	'wMel_GCF_000008025.1'
+	'wMel_KL_GCF_002907525.1'
+	'wNfe_GCF_001675785.1'
+	'wNfla_GCF_001675695.1'
+	'wNleu_GCF_001675715.1'
+	'wNo_GCF_000376585.1'
+	'wNpa_GCF_001675775.1'
+	'wOo_GCF_000306885.1'
+	'wPip_GCF_000073005.1'
+	'wPip_Mol_GCF_000723225.2'
+	'wPpe_GCF_001752665.1'
+	'wRec_GCF_000742435.1'
+	'wRi_GCF_000022285.1'
+	'wRi_GCF_002907405.1'
+	'wSan_Quija630.39_GCF_005862095.1'
+	'wSpc_GCF_002300525.1'
+	'wStri_GCF_001637495.1'
+	'wTei_cascade_4_2_GCF_005862135.1'
+	'wTpre_GCF_001439985.1'
+	'wUni_GCF_001983635.1'
+	'wVitA_GCF_001983615.1'
+	wVulC
+	wVul_insertion
+	'wWb_GCF_002204235.2'
+	'wYak_CY17C_GCF_005862115.1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Brugia_malayi_GCF_000008385.1'[&!rotate=true]:1.0E-6,('wWb_GCF_002204235.2'[&!rotate=true]:0.025395,('wCle_GCF_000829315.1'[&!rotate=true]:0.138263,(('Berlin_GCF_001931755.2'[&!rotate=true]:0.227995,'wPpe_GCF_001752665.1'[&!rotate=false]:0.798755)[&bootstrap=89,!rotate=false]:0.058228,(('Cameroon_GCF_000530755.1'[&!rotate=true]:0.007071,'wOo_GCF_000306885.1'[&!rotate=true]:0.001606)[&bootstrap=100,!rotate=true]:0.378674,(((('wDacA_GCF_001648025.1'[&!rotate=true]:0.046035,(('Muscidifurax_uniraptor_GCF_000174095.1'[&!rotate=true]:1.0E-6,'wUni_GCF_001983635.1'[&!rotate=true]:1.0E-6)[&bootstrap=89,!rotate=true]:8.7E-4,'wVitA_GCF_001983615.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.041679)[&bootstrap=48,!rotate=true]:0.004228,((('wNpa_GCF_001675775.1'[&!rotate=true]:1.71E-4,('wNfla_GCF_001675695.1'[&!rotate=true]:0.007425,'wNleu_GCF_001675715.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.014075,'wNfe_GCF_001675785.1'[&!rotate=true]:0.00706)[&bootstrap=100,!rotate=true]:0.043049,(((((('wAna_Hawaii_GCF_003671405.1'[&!rotate=true]:1.0E-6,(('wRi_GCF_002907405.1'[&!rotate=true]:3.7E-5,('D_ananassae_GCF_000167475.1'[&!rotate=true]:1.0E-6,'wRi_GCF_000022285.1'[&!rotate=true]:1.6E-5)[&bootstrap=38,!rotate=true]:1.6E-5)[&bootstrap=9,!rotate=true]:1.0E-6,'wAna_India_GCF_003671365.1'[&!rotate=true]:1.0E-6)[&bootstrap=32,!rotate=true]:1.0E-6)[&bootstrap=59,!rotate=true]:5.7E-5,'wAna_Indonesia_GCF_003671375.1'[&!rotate=true]:3.6E-5)[&bootstrap=86,!rotate=true]:8.0E-5,('wSpc_GCF_002300525.1'[&!rotate=true]:3.8E-5,'valsugana_GCF_000333795.1'[&!rotate=true]:3.8E-5)[&bootstrap=96,!rotate=true]:7.7E-5)[&bootstrap=100,!rotate=true]:0.019262,('wHa_GCF_000376605.1'[&!rotate=true]:0.014171,'Carposina_sasakii_GCF_006542295.1'[&!rotate=true]:0.011229)[&bootstrap=68,!rotate=true]:0.006533)[&bootstrap=95,!rotate=true]:0.011449,((('wMelPop_GCF_000475015.1'[&!rotate=true]:1.0E-6,'wAu_GCF_000953315.1'[&!rotate=true]:0.035737)[&bootstrap=57,!rotate=true]:0.004521,((('wMel_GCF_000008025.1'[&!rotate=true]:1.0E-6,'wMel_AMD_GCF_002907445.1'[&!rotate=true]:1.0E-6)[&bootstrap=26,!rotate=true]:1.0E-6,'wMel_KL_GCF_002907525.1'[&!rotate=true]:1.0E-6)[&bootstrap=27,!rotate=true]:1.19E-4,('wInc_Cu_GCF_001758565.1'[&!rotate=true]:9.04E-4,'wRec_GCF_000742435.1'[&!rotate=true]:0.001289)[&bootstrap=95,!rotate=true]:5.46E-4)[&bootstrap=42,!rotate=true]:0.00397)[&bootstrap=52,!rotate=true]:0.003466,('wSan_Quija630.39_GCF_005862095.1'[&!rotate=true]:1.0E-6,('wTei_cascade_4_2_GCF_005862135.1'[&!rotate=true]:1.0E-6,'wYak_CY17C_GCF_005862115.1'[&!rotate=true]:1.0E-6)[&bootstrap=93,!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.011145)[&bootstrap=100,!rotate=true]:0.017672)[&bootstrap=96,!rotate=true]:0.01254,'Glossina_morsitans_morsitans_GCF_000689175.1'[&!rotate=true]:0.019121)[&bootstrap=92,!rotate=true]:0.015441)[&bootstrap=65,!rotate=true]:0.008367)[&bootstrap=89,!rotate=true]:0.026026,((wVulC[&!rotate=true]:0.013095,wVul_insertion[&!rotate=true]:0.011511)[&bootstrap=100,!rotate=true]:0.021283,(Trachelipus_insertion[&!rotate=true]:0.11747,'Wcon_GCF_003344345.1'[&!rotate=true]:0.027312)[&bootstrap=100,!rotate=true]:0.018391)[&bootstrap=100,!rotate=true]:0.057616)[&bootstrap=94,!rotate=true]:0.014233,(((('wTpre_GCF_001439985.1'[&!rotate=true]:0.039326,(('China_1_GCF_003999585.1'[&!rotate=true]:0.025083,(('Ob_Wba_GCF_001266585.1'[&!rotate=true]:1.0E-6,'wAus_GCF_002318985.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.012383,((('wPip_GCF_000073005.1'[&!rotate=true]:1.0E-6,'Culex_quinquefasciatus_GCF_000156735.1'[&!rotate=true]:0.001067)[&bootstrap=98,!rotate=true]:0.002534,('wPip_Mol_GCF_000723225.2'[&!rotate=true]:1.0E-6,'Culex_pipiens_molestus_GCF_000208785.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.002037)[&bootstrap=100,!rotate=true]:0.046795,'wBol1-b_GCF_000333775.1'[&!rotate=true]:0.0083)[&bootstrap=84,!rotate=true]:0.006141)[&bootstrap=49,!rotate=true]:0.004553)[&bootstrap=33,!rotate=true]:0.002487,('wDacB_GCF_001648015.1'[&!rotate=true]:0.007505,('GBW_GCF_006334525.1'[&!rotate=true]:0.002019,'Nasonia_vitripennis_GCF_000204545.1'[&!rotate=true]:9.16E-4)[&bootstrap=97,!rotate=true]:0.00117)[&bootstrap=75,!rotate=true]:0.003943)[&bootstrap=40,!rotate=true]:0.00185)[&bootstrap=39,!rotate=true]:0.00403,(('wAlbB_GCF_000242415.2'[&!rotate=true]:1.0E-6,'Aedes_albopictus_GCF_004795415.1'[&!rotate=true]:1.0E-6)[&bootstrap=24,!rotate=true]:1.0E-6,'wAlbB_GCF_004171285.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.01923)[&bootstrap=75,!rotate=true]:0.016564,(((('Drosophila_mauritiana_GCF_004685025.1'[&!rotate=true]:1.0E-6,'wMau_GCF_004795975.1'[&!rotate=true]:1.0E-6)[&bootstrap=36,!rotate=true]:1.0E-6,'wMau_GCF_004795955.1'[&!rotate=true]:1.0E-6)[&bootstrap=100,!rotate=true]:0.001945,'wNo_GCF_000376585.1'[&!rotate=true]:0.009168)[&bootstrap=100,!rotate=true]:0.022443,'Bemisia_tabaci_GCF_900097055.1'[&!rotate=true]:0.037532)[&bootstrap=97,!rotate=true]:0.017311)[&bootstrap=89,!rotate=true]:0.005088,('wStri_GCF_001637495.1'[&!rotate=true]:0.006878,'Diaphorina_citri_GCF_000331595.1'[&!rotate=true]:0.017686)[&bootstrap=100,!rotate=true]:0.016637)[&bootstrap=98,!rotate=true]:0.037479)[&bootstrap=95,!rotate=true]:0.021523)[&bootstrap=43,!rotate=true]:0.018072)[&bootstrap=74,!rotate=true]:0.025297)[&bootstrap=100,!rotate=true]:0.135864)[&bootstrap=100,!rotate=true]:0.018155,'Brugia_malayi_GCF_004795935.1'[&!rotate=true]:1.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootstrap";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=277;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=6;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=244;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
